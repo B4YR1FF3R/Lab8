@@ -6,9 +6,9 @@ using namespace std;
 //Grade Function
 char findGrade(float point){
     char Grade;
-    if(point>=90){
+    if(point>90){
         Grade = 'A';
-    }else if(point<90&&point>75){
+    }else if(point<=90&&point>75){
         Grade = 'B';
     }else if(point<=75&&point>60){
         Grade = 'C';
